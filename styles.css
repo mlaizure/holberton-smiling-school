@@ -2,6 +2,7 @@
 1. GLOBAL
 2. HEADER AND HERO SECTION
 3. TESTIMONIALS CAROUSEL
+4. TUTORIALS SECTION
 (last) RESPONSIVE DESIGN
 */
 
@@ -103,6 +104,64 @@ body {
 #testimonials img {
     width: 160px;
     height: 160px;
+}
+
+
+/*** 4. TUTORIALS SECTION ***/
+
+.tutorials-section h2 {
+    margin-top: 87px;
+    margin-bottom: 75px;
+}
+
+.tutorials-section h2 span {
+    color: #C271FF;
+}
+
+.tutorials-section .card-img-top {
+    width: 255px;
+    height: 154px;
+}
+
+.tutorials-section .card-img-overlay img {
+    width: 64px;
+    height: 64px;
+}
+
+.tutorials-section .card-img-overlay {
+    width: 255px;
+    height: 154px;
+    padding-left: 40px;
+}
+
+.tutorials-section .card-body {
+    width: 255px;
+}
+
+.tutorials-section .vid-desc {
+    font-size: 14px;
+}
+
+.tutorials-section .reviewer-info img {
+    width: 30px;
+    height: 30px;
+}
+
+.tutorials-section .reviewer-name,
+.tutorials-section .length {
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tutorials-section .stars img {
+    height: 15px;
+    width: 15px;
+}
+
+.tutorials-section .holberton_school-icon-arrow_3,
+.tutorials-section .holberton_school-icon-arrow_4 {
+    color: black;
 }
 
 
