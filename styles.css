@@ -1,6 +1,7 @@
 /* SUMMARY
 1. GLOBAL
 2. HEADER AND HERO SECTION
+3. TESTIMONIALS CAROUSEL
 (last) RESPONSIVE DESIGN
 */
 
@@ -23,6 +24,11 @@ body {
 
 .btn:hover, .btn-active {
     opacity: 0.9;
+}
+
+.carousel .holberton_school-icon-arrow_3,
+.carousel .holberton_school-icon-arrow_4 {
+    font-size: 80px;
 }
 
 
@@ -93,6 +99,18 @@ body {
 }
 
 
+/*** 3. TESTIMONIALS CAROUSEL ***/
+
+#testimonials {
+    background-color: #C271FF;
+}
+
+#testimonials img {
+    width: 160px;
+    height: 160px;
+}
+
+
 /*** X. RESPONSIVE DESIGN ***/
 
 @media (max-width: 575px) {
@@ -127,6 +145,12 @@ body {
 
     .pro-photos div {
 	margin-bottom: 58px;
+    }
+
+    .carousel .holberton_school-icon-arrow_3,
+    .carousel .holberton_school-icon-arrow_4 {
+	position: relative;
+	top: -20%;
     }
 }
 
