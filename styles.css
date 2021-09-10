@@ -118,6 +118,10 @@ body {
     color: #C271FF;
 }
 
+.tutorials-section .inner-container {
+    width: 80%;
+}
+
 .tutorials-section .card-img-top {
     width: 255px;
     height: 154px;
@@ -131,7 +135,6 @@ body {
 .tutorials-section .card-img-overlay {
     width: 255px;
     height: 154px;
-    padding-left: 40px;
 }
 
 .tutorials-section .card-body {
@@ -201,16 +204,9 @@ body {
 	margin-bottom: 58px;
     }
 
-    .carousel .holberton_school-icon-arrow_3,
-    .carousel .holberton_school-icon-arrow_4 {
+    #testimonials .holberton_school-icon-arrow_3,
+    #testimonials .holberton_school-icon-arrow_4 {
 	position: relative;
 	top: -20%;
-    }
-}
-
-@media (max-width: 410px) {
-
-    .pro-section {
-	padding: 0;
     }
 }
