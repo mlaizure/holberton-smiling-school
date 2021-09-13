@@ -4,6 +4,7 @@
 3. TESTIMONIALS CAROUSEL
 4. TUTORIALS SECTION
 5. FREE MEMBERSHIP SECTION
+6. LATEST VIDEOS SECTION
 (last) RESPONSIVE DESIGN
 */
 
@@ -109,67 +110,68 @@ body {
 
 
 /*** 4. TUTORIALS SECTION ***/
+/*** 6. LATEST VIDEOS SECTION ***/
 
-.tutorials-section {
+.late-and-tut {
     padding-bottom: 88px;
 }
 
-.tutorials-section h2 {
+.late-and-tut h2 {
     margin-top: 87px;
     margin-bottom: 75px;
 }
 
-.tutorials-section h2 span {
+.late-and-tut h2 span {
     color: #C271FF;
 }
 
-.tutorials-section .inner-container {
+.late-and-tut .inner-container {
     width: 80%;
     overflow: hidden;
 }
 
-.tutorials-section .card-img-top {
+.late-and-tut .card-img-top {
     width: 255px;
     height: 154px;
 }
 
-.tutorials-section .card-img-overlay img {
+.late-and-tut .card-img-overlay img {
     width: 64px;
     height: 64px;
 }
 
-.tutorials-section .card-img-overlay {
+.late-and-tut .card-img-overlay {
     width: 255px;
     height: 154px;
 }
 
-.tutorials-section .card-body {
+.late-and-tut .card-body {
     width: 255px;
 }
 
-.tutorials-section .vid-desc {
+.late-and-tut .vid-desc {
     font-size: 14px;
 }
 
-.tutorials-section .reviewer-info img {
+.late-and-tut .reviewer-info img {
     width: 30px;
     height: 30px;
 }
 
-.tutorials-section .reviewer-name,
-.tutorials-section .length {
+.late-and-tut .reviewer-name,
+.late-and-tut .length {
     color: #C271FF;
     font-weight: 600;
     font-size: 14px;
 }
 
-.tutorials-section .stars img {
+.late-and-tut .stars img {
     height: 15px;
     width: 15px;
 }
 
-.tutorials-section .holberton_school-icon-arrow_3,
-.tutorials-section .holberton_school-icon-arrow_4 {
+.late-and-tut .holberton_school-icon-arrow_3,
+.late-and-tut .holberton_school-icon-arrow_4 {
     color: black;
 }
 
