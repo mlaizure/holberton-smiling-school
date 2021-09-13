@@ -109,6 +109,10 @@ body {
 
 /*** 4. TUTORIALS SECTION ***/
 
+.tutorials-section {
+    padding-bottom: 88px;
+}
+
 .tutorials-section h2 {
     margin-top: 87px;
     margin-bottom: 75px;
