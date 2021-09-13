@@ -3,6 +3,7 @@
 2. HEADER AND HERO SECTION
 3. TESTIMONIALS CAROUSEL
 4. TUTORIALS SECTION
+5. FREE MEMBERSHIP SECTION
 (last) RESPONSIVE DESIGN
 */
 
@@ -172,6 +173,41 @@ body {
     color: black;
 }
 
+/*** 5. FREE MEMBERSHIP SECTION ***/
+
+.free-membership {
+    background-color: #071629;
+}
+
+.free-membership h2 {
+    padding-top: 70px;
+    padding-bottom: 58px;
+}
+
+.free-membership h2 span {
+    color: #C271FF;
+}
+
+.free-membership img {
+    width: 45px;
+    height: 36px;
+}
+
+.free-membership .sub-header {
+    font-weight: 600;
+}
+
+.free-membership .blurb {
+    font-size: 14px;
+    width: 212px;
+    margin-bottom: 50px;
+}
+
+.free-membership .btn {
+    margin-top: 10px;
+    margin-bottom: 52px;
+    margin-left: calc(50% - 60px - 15px);
+}
 
 /*** X. RESPONSIVE DESIGN ***/
 
