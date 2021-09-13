@@ -120,6 +120,7 @@ body {
 
 .tutorials-section .inner-container {
     width: 80%;
+    overflow: hidden;
 }
 
 .tutorials-section .card-img-top {
