@@ -5,6 +5,7 @@
 4. TUTORIALS SECTION
 5. FREE MEMBERSHIP SECTION
 6. LATEST VIDEOS SECTION
+7. FOOTER
 (last) RESPONSIVE DESIGN
 */
 
@@ -209,6 +210,29 @@ body {
     margin-top: 10px;
     margin-bottom: 52px;
     margin-left: calc(50% - 60px - 15px);
+}
+
+/*** 7. FOOTER ***/
+
+.page-footer {
+    background-color: #071629;
+    padding-top: 90px;
+}
+
+.page-footer img {
+    height: 30px;
+}
+
+.page-footer .holberton_school-icon-ic_facebook,
+.page-footer .holberton_school-icon-ic_twitter,
+.page-footer .holberton_school-icon-ic_instagram {
+    font-size: 30px;
+}
+
+.page-footer .copyright {
+    font-size: 12px;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
 
 /*** X. RESPONSIVE DESIGN ***/
