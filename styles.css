@@ -38,12 +38,16 @@ body {
 
 /*** 2. HEADER AND HERO SECTION ***/
 
-.hero-section {
+.hero-section, .pricing-hero {
     background-color: white;
     background-image: url(images/pic_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+.pricing-hero {
+    background-image: url(images/pic_2.jpg);
 }
 
 /* nav bar
@@ -79,6 +83,35 @@ body {
 .mid-section {
     margin-top: 156px;
     margin-bottom: 168px;
+}
+
+.text-section {
+    margin-top: 112px;
+}
+
+.text-section .play-symbol {
+    height: 60px;
+}
+
+.text-section .what {
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.text-section p {
+    font-size: 26px;
+}
+
+.text-section .smile-logo {
+    height: 30px;
+}
+
+.text-section .text-logo {
+    height: 40px;
+}
+
+.text-section h1 {
+    font-size: 60px;
 }
 
 /* pro section
@@ -239,11 +272,12 @@ body {
     padding-bottom: 40px;
 }
 
+
 /*** X. RESPONSIVE DESIGN ***/
 
 @media (max-width: 575px) {
 
-    .hero-section {
+    .hero-section, .pricing-hero {
 	background-size: auto 60%;
 	background-position: top center;
 	background-color: #071629;
@@ -260,6 +294,14 @@ body {
     .mid-section {
 	margin-top: 176px;
 	margin-bottom: 150px;
+    }
+
+    .text-section {
+	margin-top: 82px;
+    }
+
+    .text-section .what {
+	margin-bottom: 50px;
     }
 
     .pro-section {
