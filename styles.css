@@ -39,7 +39,7 @@ body {
 
 /*** 2. HEADER AND HERO SECTION ***/
 
-.hero-section, .pricing-hero {
+.hero-section, .pricing-hero, .courses-hero {
     background-color: white;
     background-image: url(images/pic_1.jpg);
     background-repeat: no-repeat;
@@ -49,6 +49,10 @@ body {
 
 .pricing-hero {
     background-image: url(images/pic_2.jpg);
+}
+
+.courses-hero {
+    background-image: url(images/pic_3.jpg);
 }
 
 /* nav bar
@@ -113,6 +117,15 @@ body {
 
 .text-section h1 {
     font-size: 60px;
+}
+
+.over-section h2 {
+    font-family: 'Coiny';
+    font-weight: 400;
+}
+
+.over-section h2 span {
+    color: #C271FF;
 }
 
 /* pro section
