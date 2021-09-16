@@ -220,11 +220,7 @@ body {
 .results .card {
     margin-bottom: 35px;
 }
-/*
-.late-and-tut .card-img-top {
-    width: 255px;
-    height: 154px;
-}*/
+
 .late-and-tut .card-img-top,
 .results .card-img-top {
     max-width: 255px;
@@ -237,19 +233,12 @@ body {
     width: 64px;
     height: 64px;
 }
-/*
-.late-and-tut .card-img-overlay {
-    width: 255px;
-    height: 154px;
-}*/
+
 .late-and-tut .card-img-overlay,
 .results .card-img-overlay {
     height: 154px;
 }
-/*
-.late-and-tut .card-body {
-    width: 255px;
-}*/
+
 .late-and-tut .card-body,
 .results .card-body {
     max-width: 255px;
