@@ -7,6 +7,7 @@
 6. LATEST VIDEOS SECTION
 7. FOOTER
 8. FAQ SECTION
+9. FILTERS SECTION
 (last) RESPONSIVE DESIGN
 */
 
@@ -334,6 +335,45 @@ body {
 
 .FAQ .text-muted {
     font-size: 14px;
+}
+
+/*** 9. FILTERS SECTION ***/
+
+.filters {
+    background-color: #C271FF;
+}
+
+.filters label {
+    font-size: 12px;
+}
+
+.filters input,
+.filters .dropdown .btn,
+.filters .holberton_school-icon-search_1 {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.filters .dropdown-menu a:hover {
+    background-color: white;
+    color: #C271FF;
+}
+
+.filters ::placeholder {
+    color: white;
+}
+
+.filters .search-icon {
+    background: none;
+    position: relative;
+    left: -1px;
+}
+
+.filters input {
+    height: 47px;
 }
 
 
