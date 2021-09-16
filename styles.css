@@ -6,6 +6,7 @@
 5. FREE MEMBERSHIP SECTION
 6. LATEST VIDEOS SECTION
 7. FOOTER
+8. FAQ SECTION
 (last) RESPONSIVE DESIGN
 */
 
@@ -300,6 +301,26 @@ body {
     font-size: 12px;
     padding-top: 45px;
     padding-bottom: 40px;
+}
+
+/*** 8.FAQ section ***/
+
+.FAQ {
+    padding-bottom: 110px;
+}
+
+.FAQ h1 {
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 74px;
+}
+
+.FAQ .font-weight-bold {
+    padding-top: 74px;
+}
+
+.FAQ .text-muted {
+    font-size: 14px;
 }
 
 
