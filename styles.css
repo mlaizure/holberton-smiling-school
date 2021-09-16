@@ -213,42 +213,66 @@ body {
     overflow: hidden;
 }
 
+.results .card {
+    margin-bottom: 35px;
+}
+/*
 .late-and-tut .card-img-top {
     width: 255px;
     height: 154px;
+}*/
+.late-and-tut .card-img-top,
+.results .card-img-top {
+    max-width: 255px;
+    height: 154px;
+    object-fit: cover;
 }
 
-.late-and-tut .card-img-overlay img {
+.late-and-tut .card-img-overlay img,
+.results .card-img-overlay img {
     width: 64px;
     height: 64px;
 }
-
+/*
 .late-and-tut .card-img-overlay {
     width: 255px;
     height: 154px;
+}*/
+.late-and-tut .card-img-overlay,
+.results .card-img-overlay {
+    height: 154px;
 }
-
+/*
 .late-and-tut .card-body {
     width: 255px;
+}*/
+.late-and-tut .card-body,
+.results .card-body {
+    max-width: 255px;
 }
 
-.late-and-tut .vid-desc {
+.late-and-tut .vid-desc,
+.results .vid-desc {
     font-size: 14px;
 }
 
-.late-and-tut .reviewer-info img {
+.late-and-tut .reviewer-info img,
+.results .reviewer-info img {
     width: 30px;
     height: 30px;
 }
 
 .late-and-tut .reviewer-name,
-.late-and-tut .length {
+.late-and-tut .length,
+.results .reviewer-name,
+.results .length {
     color: #C271FF;
     font-weight: 600;
     font-size: 14px;
 }
 
-.late-and-tut .stars img {
+.late-and-tut .stars img,
+.results .stars img {
     height: 15px;
     width: 15px;
 }
