@@ -37,7 +37,6 @@ body {
     font-size: 80px;
 }
 
-
 /*** 2. HEADER AND HERO SECTION ***/
 
 .hero-section, .pricing-hero, .courses-hero {
@@ -69,6 +68,12 @@ body {
 
 .navbar ul {
     font-size: 12px;
+}
+
+.selected-page, .selected-page:hover {
+    color: #C271FF;
+    text-decoration: underline white 2px;
+    text-underline-offset: 8px;
 }
 
 /* middle section
